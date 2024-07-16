@@ -2,7 +2,7 @@ package org.dromara.x.file.storage.core.file;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;

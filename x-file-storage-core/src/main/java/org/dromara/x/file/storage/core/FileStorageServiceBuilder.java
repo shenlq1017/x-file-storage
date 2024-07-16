@@ -159,7 +159,7 @@ public class FileStorageServiceBuilder {
      * 添加 HttpServletRequest 文件包装适配器
      */
     public FileStorageServiceBuilder addHttpServletRequestFileWrapperAdapter() {
-        if (!doesNotExistClass("javax.servlet.http.HttpServletRequest")) {
+        if (!doesNotExistClass("jakarta.servlet.http.HttpServletRequest")) {
             fileWrapperAdapterList.add(new JavaxHttpServletRequestFileWrapperAdapter());
         }
         if (!doesNotExistClass("jakarta.servlet.http.HttpServletRequest")) {
